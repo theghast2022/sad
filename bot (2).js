@@ -1,7 +1,15 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
-console.log("Scrpit By Dream");
-
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : EX Clan`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`Death Shop`,"http://twitch.tv/Death Shop")
+client.user.setStatus("dnd")
+});
 
 client.on("ready", () => {
 let channel =     client.channels.get("505372012978372642")
@@ -13,6 +21,6 @@ channel.send(`hdfh`)
 
 }, 25)
 })
- 
- 
-client.login('NTA1ODY2MTY4MzIyNzUyNTcz.DrZ0IQ.Dt67DYsUR4TubR5BhVvYePiH_yg'); تغير فيها شيء
+
+
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
