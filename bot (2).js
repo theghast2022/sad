@@ -15,4 +15,4 @@ channel.send(`hdfh`)
 })
  
  
-client.login('NDYyOTU1ODExODQ1NDM5NDg5.DrSpxw.ML9FGo1e8UQC5-tOdc-SyUE6T3Q'); تغير فيها شيء
+client.login('NTA1ODY2MTY4MzIyNzUyNTcz.DrZ0IQ.Dt67DYsUR4TubR5BhVvYePiH_yg'); تغير فيها شيء
